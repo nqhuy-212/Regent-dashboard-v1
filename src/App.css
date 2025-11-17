@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  scroll-behavior: smooth;
+  --color-background: #f6f9ff;
+  --color-primary: #4154f1;
+  --color-secondary: #717ff5;
+  --color-text: #444444;
+  --color-text-light: #777777;
+  --font-family-primary: "Nunito", sans-serif;
+  --font-family-secondary: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: "Open-Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-primary);
+  color: var(--color-text);
+}
