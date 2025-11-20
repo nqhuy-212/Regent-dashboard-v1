@@ -11,7 +11,7 @@ function Logo() {
     <div>
       <div className="d-flex align-items-center justify-content-between">
         <a href="/" className="logo d-flex align-items-center">
-          {/* <img src={img} alt="" /> */}
+          <img src={img} alt="" />
           <span className="d-none d-lg-block">Regent Dashboard</span>
         </a>
         <i

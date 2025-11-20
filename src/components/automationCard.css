@@ -1,0 +1,55 @@
+.machine-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+}
+
+.machine-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.machine-img {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.machine-desc {
+  height: 22px;
+  overflow: hidden;
+  font-size: 0.85rem;
+}
+
+.stock-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+.stock-item {
+  background: #f8f9fa;
+  padding: 6px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.stock-item.total {
+  background: #e7f1ff;
+  font-weight: bold;
+}
+
+/* .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.stock-item {
+  font-size: 0.9rem;
+} */

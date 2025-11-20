@@ -17,6 +17,22 @@ function SideBar() {
           ]}
         />
         <NavSection
+          id="power-bi-nav"
+          icon="bi bi-clipboard-data"
+          title="Power BI"
+          items={[
+            { title: "COP report", href: "/powerbi/cop-report" },
+            { title: "Bee together", href: "/powerbi/bee-together" },
+            {
+              title: "Daily individual eff",
+              href: "/powerbi/daily-individual-eff",
+            },
+            { title: "OEE show TV", href: "/powerbi/oee-tv" },
+            { title: "Broken needle report", href: "/powerbi/needle" },
+            { title: "Off-std time report", href: "/powerbi/off-std" },
+          ]}
+        />
+        <NavSection
           id="library-nav"
           icon="bi bi-menu-button-wide"
           title="Library"

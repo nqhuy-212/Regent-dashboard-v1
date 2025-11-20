@@ -1,0 +1,12 @@
+.desc-item {
+  background: #f8f9fa;
+  padding: 6px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.desc-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}

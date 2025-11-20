@@ -1,0 +1,106 @@
+{
+  "cutting": [
+    {
+      "id": "3",
+      "name_vi": "Máy may viền cổ",
+      "name_en": "Collar joining ​",
+      "avatar": "/images/machines/sewing/1.PNG",
+      "capacity": "4500",
+      "sam_manual": "0.183",
+      "sam_auto": "0.08",
+      "sam_saving": "0.103",
+      "hc_saving": "1.29",
+      "stock": {
+        "US": 15,
+        "UQ": 9,
+        "NK": 8
+      }
+    },
+    {
+      "id": "4",
+      "name_vi": "Máy may viền cổ",
+      "name_en": "Collar joining 123 ​",
+      "avatar": "/images/machines/sewing/1.PNG",
+      "capacity": "4500",
+      "sam_manual": "0.183",
+      "sam_auto": "0.08",
+      "sam_saving": "0.103",
+      "hc_saving": "1.29",
+      "stock": {
+        "US": 15,
+        "UQ": 9,
+        "NK": 8
+      }
+    }
+  ],
+
+  "sewing": [
+    {
+      "id": "1",
+      "name_vi": "Máy may viền cổ",
+      "name_en": "Collar joining ​",
+      "avatar": "/images/machines/sewing/1.PNG",
+      "capacity": "4500",
+      "sam_manual": "0.183",
+      "sam_auto": "0.08",
+      "sam_saving": "0.103",
+      "hc_saving": "1.29",
+      "stock": {
+        "US": 15,
+        "UQ": 9,
+        "NK": 8
+      }
+    },
+    {
+      "id": "11",
+      "name_vi": "Máy may viền cổ",
+      "name_en": "Collar joining ​",
+      "avatar": "/images/machines/sewing/1.PNG",
+      "capacity": "4500",
+      "sam_manual": "0.183",
+      "sam_auto": "0.08",
+      "sam_saving": "0.103",
+      "hc_saving": "1.29",
+      "stock": {
+        "US": 15,
+        "UQ": 9,
+        "NK": 8
+      }
+    },
+    {
+      "id": "12",
+      "name_vi": "Máy may viền cổ",
+      "name_en": "Collar joining ​",
+      "avatar": "/images/machines/sewing/1.PNG",
+      "capacity": "4500",
+      "sam_manual": "0.183",
+      "sam_auto": "0.08",
+      "sam_saving": "0.103",
+      "hc_saving": "1.29",
+      "stock": {
+        "US": 15,
+        "UQ": 9,
+        "NK": 8
+      }
+    }
+  ],
+
+  "finishing": [
+    {
+      "id": "5",
+      "name_vi": "Máy may viền cổ",
+      "name_en": "Collar joining ​",
+      "avatar": "/images/machines/sewing/1.PNG",
+      "capacity": "4500",
+      "sam_manual": "0.183",
+      "sam_auto": "0.08",
+      "sam_saving": "0.103",
+      "hc_saving": "1.29",
+      "stock": {
+        "US": 15,
+        "UQ": 9,
+        "NK": 8
+      }
+    }
+  ]
+}
