@@ -7,7 +7,7 @@ function AutomationMachine() {
   const [machines, setMachines] = useState([]);
   const [search, setSearch] = useState("");
   const [filterSection, setFilterSection] = useState("All");
-  const [showTable, setShowTable] = useState(true);
+  const [showTable, setShowTable] = useState(false);
 
   // Fetch from API
   useEffect(() => {
