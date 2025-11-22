@@ -2,6 +2,7 @@ import PageTitle from "../../components/PageTitle";
 import React, { useState, useEffect } from "react";
 import AutomationSection from "../../components/AutomationSection";
 import MachineStockTable from "../../components/MachineStockTable";
+import MachineStockChart from "../../components/MachineStockChart";
 
 function AutomationMachine() {
   const [machines, setMachines] = useState([]);
@@ -42,6 +43,7 @@ function AutomationMachine() {
 
       {/* Show table */}
       {showTable && <MachineStockTable data={machines} />}
+      <MachineStockChart machines={machines} />
 
       {/* Search + Filter + Toggle */}
       <div className="d-flex gap-3 mb-4 col-12 col-md-8 ">
